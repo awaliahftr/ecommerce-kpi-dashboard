@@ -32,11 +32,12 @@ Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilak
 - Cohort retention turun drastis di bulan ke-2 → peluang campaign retensi.
 
 ## 📂 Project Structure
+'''
 ├── data/ ← CSV hasil ekspor dari PostgreSQL
 ├── tableau/ ← Tableau workbook (.twbx)
 ├── notebooks/ ← Python EDA (optional)
 └── docs/ ← Screenshot dashboard
-
+'''
 
 ## 🚀 How to Run
 1. Clone repo: `git clone https://github.com/awaliahftr/ecommerce-kpi-dashboard.git`
