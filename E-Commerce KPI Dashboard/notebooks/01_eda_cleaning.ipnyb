@@ -1,0 +1,27 @@
+import pandas as pd
+from sqlalchemy import create_engine
+
+# 1. Load Excel
+df1 = pd.read_excel('D:/Project End-to-End/E-Commerce KPI Dashboard/data/raw/online_retail_II.xlsx', sheet_name='Year 2009-2010')
+df2 = pd.read_excel('D:/Project End-to-End/E-Commerce KPI Dashboard/data/raw/online_retail_II.xlsx', sheet_name='Year 2010-2011')
+df  = pd.concat([df1, df2], ignore_index=True)
+
+# 2. Rename columns
+df.columns = ['invoice_no','stock_code','description',
+              'quantity','invoice_date','price',
+              'customer_id','country']
+
+# 3. Initial cleaning
+df = df.dropna(subset=['customer_id'])       # remove rows without customer ID
+df = df[df['quantity'] > 0]                  # remove returns & corrections
+df = df[df['price'] > 0]                     # remove zero prices
+df['customer_id'] = df['customer_id'].astype(int).astype(str)
+df['total_sales'] = df['quantity'] * df['price']
+
+print(f'Shape after cleaning: {df.shape}')
+print(df.dtypes)
+
+# 4. Import to PostgreSQL
+engine = create_engine('postgresql://postgres:postgre@localhost:5432/ecommerce_db')
+df.to_sql('raw_transactions', engine, if_exists='replace', index=False)
+print('Data successfully imported to PostgreSQL!')
