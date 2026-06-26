@@ -2,7 +2,7 @@
 
 ### End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
 
-![Dashboard Preview](docs/dashboard_screenshot.png)
+![Dashboard Preview](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/445d934b-c57e-4b32-9f68-9efb7d17252e" />)
 
 ## 🎯 Problem Statement
 Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilaku pelanggan, dan tren pertumbuhan untuk mendukung keputusan strategis.
