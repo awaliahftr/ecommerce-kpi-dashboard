@@ -27,6 +27,13 @@ Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilak
 - Period: December 2009 – December 2011
 - Records: ~1 million transactions after cleaning
 
+## 📂 Data Source
+File CSV hasil ekspor dari PostgreSQL:
+- `monthly_revenue.csv` → Revenue per bulan
+- `rfm_summary.csv` → RFM customer segmentation
+- `top_products.csv` → Top 10 products by revenue
+- `cohort_retention.csv` → Cohort retention analysis
+
 ## 🔍 Key Findings
 - Revenue tertinggi pada November 2011 (periode pre-holiday).
 - Segmen 'Champions' hanya 12% pelanggan tapi berkontribusi 38% revenue.
