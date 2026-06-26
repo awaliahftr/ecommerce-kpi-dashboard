@@ -2,7 +2,7 @@
 
 ### End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
 
-![Dashboard Preview](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/445d934b-c57e-4b32-9f68-9efb7d17252e" />)
+![Dashboard Preview]()
 
 ## 🎯 Problem Statement
 Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilaku pelanggan, dan tren pertumbuhan untuk mendukung keputusan strategis.
@@ -27,17 +27,17 @@ Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilak
 - Records: ~1 million transactions after cleaning
 
 ## 🔍 Key Findings
-- Revenue tertinggi pada November 2011 (periode pra-hari raya).
+- Revenue tertinggi pada November 2011 (periode pre-holiday).
 - Segmen 'Champions' hanya 12% pelanggan tapi berkontribusi 38% revenue.
 - Cohort retention turun drastis di bulan ke-2 → peluang campaign retensi.
 
 ## 📂 Project Structure
-'''
+```
 ├── data/ ← CSV hasil ekspor dari PostgreSQL
 ├── tableau/ ← Tableau workbook (.twbx)
-├── notebooks/ ← Python EDA (optional)
+├── notebooks/ ← Python EDA 
 └── docs/ ← Screenshot dashboard
-'''
+```
 
 ## 🚀 How to Run
 1. Clone repo: `git clone https://github.com/awaliahftr/ecommerce-kpi-dashboard.git`
