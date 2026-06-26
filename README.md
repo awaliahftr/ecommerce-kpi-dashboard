@@ -2,7 +2,8 @@
 
 ### End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
 
-![Dashboard Preview]()
+![Dashboard Preview](https://github.com/awaliahftr/ecommerce-kpi-dashboard/blob/e6c7c8f7851674d212e539cefc6ea0d9d1b1f6b0/E-Commerce%20KPI%20Dashboard/docs/dashboard.png
+)
 
 ## 🎯 Problem Statement
 Manajemen membutuhkan visibilitas real-time terhadap performa penjualan, perilaku pelanggan, dan tren pertumbuhan untuk mendukung keputusan strategis.
