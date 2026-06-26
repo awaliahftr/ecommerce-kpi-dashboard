@@ -1,0 +1,20 @@
+# File sementara Tableau
+*.tmp
+*.log
+*.twb.local
+*.tps
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.env
+
+# Data mentah (tidak diupload agar repo tetap ringan)
+data/raw/*.xlsx
+data/raw/*.csv
