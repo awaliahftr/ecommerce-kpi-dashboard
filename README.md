@@ -1,6 +1,10 @@
 # 📊 E-Commerce KPI Dashboard
 
-### End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
+[![Tableau](https://img.shields.io/badge/Tableau-2026.2-blue.svg)](https://www.tableau.com/)
+
+End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
 
 ![Dashboard Preview](https://github.com/awaliahftr/ecommerce-kpi-dashboard/blob/e6c7c8f7851674d212e539cefc6ea0d9d1b1f6b0/E-Commerce%20KPI%20Dashboard/docs/dashboard.png
 )
