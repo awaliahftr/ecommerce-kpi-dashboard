@@ -59,7 +59,5 @@ File CSV hasil ekspor dari PostgreSQL:
 ## 📊 Live Dashboard
 [View on Tableau Public](https://public.tableau.com/views/E-CommerceKPIDashboard_17827279135500/Dashboard1)
 
-![Dashboard Preview](docs/dashboard_screenshot.png)
-
 ## 👤 Author
 **Awaliah Fitri Nur Ananda** – [GitHub](https://github.com/awaliahftr)
