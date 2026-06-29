@@ -56,8 +56,10 @@ File CSV hasil ekspor dari PostgreSQL:
 2. Buka file Tableau di folder `tableau/`.
 3. Jika perlu, refresh data dari CSV di folder `data/`.
 
-## 📊 Dashboard Preview
-Dashboard interaktif menampilkan KPI penjualan, segmentasi RFM, cohort retention, dan produk terlaris.
+## 📊 Live Dashboard
+[View on Tableau Public](https://public.tableau.com/views/E-CommerceKPIDashboard_17827279135500/Dashboard1)
+
+![Dashboard Preview](docs/dashboard_screenshot.png)
 
 ## 👤 Author
 **Awaliah Fitri Nur Ananda** – [GitHub](https://github.com/awaliahftr)
