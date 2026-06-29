@@ -6,7 +6,7 @@
 
 End-to-End Data Analytics Project | PostgreSQL + Python + Tableau
 
-![Dashboard Preview](https://github.com/awaliahftr/ecommerce-kpi-dashboard/blob/e6c7c8f7851674d212e539cefc6ea0d9d1b1f6b0/E-Commerce%20KPI%20Dashboard/docs/dashboard.png
+![Dashboard Preview](https://github.com/awaliahftr/ecommerce-kpi-dashboard/blob/84d5a5d2183ac292c80c121e77885551a3c96d4e/E-Commerce%20KPI%20Dashboard/docs/Dashboard%201.png
 )
 
 ## 🎯 Problem Statement
